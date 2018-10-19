@@ -6,20 +6,26 @@ head {
     padding: 0;
 }
 
-/*-----------------------------------------------------------------Background--*/
+/*-----------------------------------------------------------------Backgrounds--*/
 .bg-guitar {
     height: 100vh;
     background: url(../img/bass.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    background-attachment: fixed;
     transition: all .5 ease-in-out;
     -moz-transition: all .5 ease-in-out;
     -webkit-transition: all .5 ease-in-out;
 }
 
-
+.bg-content {
+    margin: auto;
+    width: 66%;
+    height: 100%;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.8);
+}
 
 /*-----------------------------------------------------------------Navigation Top Bar --*/
 
@@ -161,6 +167,8 @@ h3 {
     -moz-transition: all .5 ease-in-out;
     -webkit-transition: all .5 ease-in-out;
 }
+
+
 
 /*-----------------------------------------------------------------Footer--*/
 
