@@ -40,6 +40,7 @@ head {
     text-align: left;
     color: #fafafa;
     position: fixed;
+    margin-left: 40px;
 }
 
 
@@ -64,18 +65,23 @@ h3 {
 
 .music-services {
     list-style: none;
+    display: inline-block;
+    margin-bottom:0px;
+    
 }
+.music-services li a {
+    margin-left: 30px;
+    
+}
+
 .music-services li a i {
     height: 30px;
-    width: 30px;
     text-align: center;
     line-height: 5px;
-    padding-top: 15px;
-    margin-left: 30px;
+    margin-top: 15px;
     font-size: x-large;
-    
-    
 }
+
 
 .fab.fa-spotify {
     color: #000;
@@ -99,6 +105,48 @@ h3 {
 .fab.fa-itunes:hover {
     color: #b317bd;
 }
+
+.social-media {
+    list-style: none;
+    float: right;
+    margin-bottom:0px;
+}
+
+.social-media li a {
+        margin-right: 30px;
+}
+
+.social-media li a i {
+   
+    text-align: center;
+    line-height: 5px;
+    margin-top: 15px;
+    font-size: x-large;
+}
+
+.fab.fa-facebook {
+    color: #000;
+    transition: all 0.5s ease-in-out
+}
+.fab.fa-facebook:hover {
+    color: #4c6fec;
+}
+
+.fab.fa-instagram {
+    color: #000;
+    transition: all 0.5s ease-in-out
+}
+.fab.fa-instagram:hover {
+    color: #ec6b00;
+}
+.fab.fa-twitter {
+    color: #000;
+    transition: all 0.5s ease-in-out
+}
+.fab.fa-twitter:hover {
+    color: #1dc0ff;
+}
+
 /*-----------------------------------------------------------------Section--*/
 
 
