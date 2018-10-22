@@ -62,96 +62,14 @@ h3 {
 .bottom-bar {
     margin-top: 70px;
     width: 100%;
-    height: 40px;
-    position: relative;
-    z-index: 0;
+    height: 15px;
+    position: fixed;
+    z-index: 3;
     background-color: #fafafa;
     border-bottom: solid;
 }
 
-.music-services {
-    list-style: none;
-    display: inline-block;
-    margin-bottom:0px;
-    
-}
-.music-services li a {
-    margin-left: 30px;
-    
-}
 
-.music-services li a i {
-    height: 30px;
-    text-align: center;
-    line-height: 5px;
-    margin-top: 15px;
-    font-size: x-large;
-}
-
-
-.fab.fa-spotify {
-    color: #000;
-    transition: all 0.5s ease-in-out
-}
-.fab.fa-spotify:hover {
-    color: #37b823;
-}
-
-.fab.fa-youtube {
-    color: #000;
-    transition: all 0.5s ease-in-out
-}
-.fab.fa-youtube:hover {
-    color: #fd0101;
-}
-.fab.fa-itunes {
-    color: #000;
-    transition: all 0.5s ease-in-out
-}
-.fab.fa-itunes:hover {
-    color: #b317bd;
-}
-
-.social-media {
-    list-style: none;
-    float: right;
-    margin-bottom:0px;
-}
-
-.social-media li a {
-        margin-right: 30px;
-}
-
-.social-media li a i {
-   
-    text-align: center;
-    line-height: 5px;
-    margin-top: 15px;
-    font-size: x-large;
-}
-
-.fab.fa-facebook {
-    color: #000;
-    transition: all 0.5s ease-in-out
-}
-.fab.fa-facebook:hover {
-    color: #4c6fec;
-}
-
-.fab.fa-instagram {
-    color: #000;
-    transition: all 0.5s ease-in-out
-}
-.fab.fa-instagram:hover {
-    color: #ec6b00;
-}
-.fab.fa-twitter {
-    color: #000;
-    transition: all 0.5s ease-in-out
-}
-.fab.fa-twitter:hover {
-    color: #1dc0ff;
-}
 
 /*-----------------------------------------------------------------Section--*/
 
@@ -174,7 +92,84 @@ h3 {
 
 .footer-bar {
     position: relative;
-    height: 85px;
+    height: 150px;
     width: 100%;
     background-color: #000000;
+    
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.vb {
+    border-right: solid 6px white;
+    height: 100px;
+}
+
+.musicservices-socialmedia {
+    list-style: none;
+    display: inline-block;
+    margin-bottom:0px;
+    
+}
+.musicservices-socialmedia li a {
+    margin-left: 30px;
+    
+}
+
+.musicservices-socialmedia li a i {
+    height: 30px;
+    text-align: center;
+    line-height: 5px;
+    margin-top: 15px;
+    font-size: x-large;
+}
+
+
+.fab.fa-spotify {
+    color: #fff;
+    transition: all 0.5s ease-in-out
+}
+.fab.fa-spotify:hover {
+    color: #37b823;
+}
+
+.fab.fa-youtube {
+    color: #fff;
+    transition: all 0.5s ease-in-out
+}
+.fab.fa-youtube:hover {
+    color: #fd0101;
+}
+.fab.fa-itunes {
+    color: #fff;
+    transition: all 0.5s ease-in-out
+}
+.fab.fa-itunes:hover {
+    color: #b317bd;
+}
+
+.fab.fa-facebook {
+    color: #fff;
+    transition: all 0.5s ease-in-out
+}
+.fab.fa-facebook:hover {
+    color: #4c6fec;
+}
+
+.fab.fa-instagram {
+    color: #fff;
+    transition: all 0.5s ease-in-out
+}
+.fab.fa-instagram:hover {
+    color: #ec6b00;
+}
+.fab.fa-twitter {
+    color: #fff;
+    transition: all 0.5s ease-in-out
+}
+.fab.fa-twitter:hover {
+    color: #1dc0ff;
 }
