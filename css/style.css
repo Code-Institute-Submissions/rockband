@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fjalla+One:100,200,300,400,500,600,700|Teko:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One:100,200,300,400,500,600,700|Teko:100,200,300,400,500,600,700|Oswald:100,200,300,400,500,600,700');
 
 body,
 head {
@@ -15,7 +15,7 @@ head {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    margin: 0px;
+    margin: 58px 0px 0px 0px;
 
 }
 @media (max-width: 991px) {
@@ -34,8 +34,15 @@ head {
     margin: auto;
     width: 66%;
     height: 100%;
-    color: red;
+    color: #fafafa;
     background-color: rgba(0, 0, 0, 0.8);
+}
+
+.bg-content h1 {
+    font-family: 'Fjalla One';
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
 }
 
 .blackbg {
@@ -66,16 +73,33 @@ head {
     text-align: left;
     color: #fafafa;
     position: fixed;
+    font-size: 300%;
     margin-left: 10px;
-    margin-top: 14px;
+    margin-top: 16px;
+    text-decoration: none;
 }
 
-
-
-
-h3 {
-    color: white;
+.menuitem {
+    text-align: center;
+    margin-top: 18px;
 }
+.menuitem a {
+    text-decoration: none;
+    color: #fafafa;
+    height: 70px;
+    transition: all .4s ease-in-out;
+}
+.menuitem span {
+    font-family: 'Oswald', sans-serif;
+    font-size: 190%;
+    font-weight: 500;
+  
+}
+    
+.menuitem a:hover {
+    color: #838282;
+}
+
 
 /*-----------------------------------------------------------------Navigation Bottom Bar--*/
 
@@ -93,20 +117,14 @@ h3 {
 
 /*-----------------------------------------------------------------Section--*/
 
-.logo {
-    height: 100vh;
-    background: url(../img/bass.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: all .5 ease-in-out;
-    -moz-transition: all .5 ease-in-out;
-    -webkit-transition: all .5 ease-in-out;
-}
+
 
 
 
 /*-----------------------------------------------------------------Footer--*/
+.footer {
+    padding: 0;
+}
 
 .footer-bar {
     height: 150px;
@@ -242,6 +260,10 @@ h3 {
     text-transform: uppercase;
     display: flex;
     justify-content: center;
+}
+
+.cookieprivace a {
+    text-decoration: none;
 }
 
 .pp {
