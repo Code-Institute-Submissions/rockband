@@ -18,17 +18,31 @@ head {
     margin: 58px 0px 0px 0px;
 
 }
+
 @media (max-width: 991px) {
     .bg-guitar {
-    height: 100vh;
-    background: #000;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 0px;
+        height: 100%;
+        background: #000;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 75px 0px 0px 0px;
+    }
 }
+
+@media (max-width: 767px) {
+    .bg-guitar {
+        height: 100%;
+        background: #000;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 75px 0px 0px 0px;
+    }
 }
+
 
 .bg-content {
     margin: auto;
@@ -38,12 +52,18 @@ head {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.bg-content h1 {
-    font-family: 'Fjalla One';
-    font-weight: bold;
-    padding-top: 20px;
-    text-align: center;
+@media (max-width: 991px) {
+    .bg-content {
+        margin: auto;
+        width: 95%;
+        height: 100%;
+        color: #fafafa;
+        background-color: #000;
+    }
 }
+
+
+
 
 .blackbg {
     height: 100vh;
@@ -60,7 +80,7 @@ head {
     width: 100%;
     position: fixed;
     background-color: #000000;
-    height: 70px;
+    height: 71px;
     z-index: 2;
 }
 
@@ -83,19 +103,21 @@ head {
     text-align: center;
     margin-top: 18px;
 }
+
 .menuitem a {
     text-decoration: none;
     color: #fafafa;
     height: 70px;
     transition: all .4s ease-in-out;
 }
+
 .menuitem span {
     font-family: 'Oswald', sans-serif;
     font-size: 190%;
     font-weight: 500;
-  
+
 }
-    
+
 .menuitem a:hover {
     color: #838282;
 }
@@ -106,7 +128,7 @@ head {
 .bottom-bar {
     margin-top: 70px;
     width: 100%;
-    height: 9px;
+    height: 10px;
     position: fixed;
     z-index: 3;
     background-color: #fafafa;
@@ -115,13 +137,44 @@ head {
 
 
 
-/*-----------------------------------------------------------------Section--*/
+/*-----------------------------------------------------------------Content--*/
 
+.content {
+    height: 60%;
+}
 
+.content h1 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 700;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 400%;
 
+}
 
+.content h3,
+h6 {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+
+}
+
+.band-jpg {
+    background: url(../img/band.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+}
 
 /*-----------------------------------------------------------------Footer--*/
+
 .footer {
     padding: 0;
 }
