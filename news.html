@@ -17,6 +17,32 @@
 
   <! Navbar  ->
   <header>
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="contact.php">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    
+    
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12">
         <div class="top-bar">
@@ -58,15 +84,53 @@
   <section>
     <div class="row">
       <! Guitar background  ->
-      <div class="col-md-12 bg-guitar ">
+      <div class="col-md-12 bg-guitar clearfix">
 
         <! Light dark transparent background ->
-        <div class="bg-content hidden-xs hidden-sm">
+        <div class="bg-content">
           <! ------ ->
           <! Content ->
           <div class="content">
             <h1>News</h1>
-           
+            <! News Columns splited on right and left -->
+            <div class="row flex-column">
+
+              <div class="news-image hidden-xs hidden-sm">
+                <div class="square"><img src="../img/news/news1.jpg" alt="news1" width="200" height="200"></div>
+                <div class="square"><img src="../img/news/news2.jpg" alt="news2" width="200" height="200"></div>
+                <div class="square"><img src="../img/news/news3.jpg" alt="news3" width="200" height="200"></div>
+                <div class="square"><img src="../img/news/news4.jpg" alt="news4" width="200" height="200"></div>
+                <div class="square"><img src="../img/news/news5.jpg" alt="news5" width="200" height="200"></div>
+
+              </div>
+              <div class="news-text">
+                <div class="paragraph">
+                  <h3>Title No 1</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, quidem, impedit. Mollitia cumque sint necessitatibus, dolore quae facilis cupiditate asperiores.</p>
+                </div>
+                <div class="paragraph">
+                  <h3>Title No 2</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, quidem, impedit. Mollitia cumque sint necessitatibus, dolore quae facilis cupiditate asperiores.</p>
+                </div>
+                <div class="paragraph">
+                  <h3>Title No 3</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, quidem, impedit. Mollitia cumque sint necessitatibus, dolore quae facilis cupiditate asperiores.</p>
+                </div>
+                <div class="paragraph">
+                  <h3>Title No 4</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, quidem, impedit. Mollitia cumque sint necessitatibus, dolore quae facilis cupiditate asperiores.</p>
+                </div>
+                <div class="paragraph">
+                  <h3>Title No 5</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, quidem, impedit. Mollitia cumque sint necessitatibus, dolore quae facilis cupiditate asperiores.</p>
+                </div>
+
+
+              </div>
+            </div>
+
+            <hr>
+            <! ------ ->
           </div>
           <! ------ ->
         </div>
