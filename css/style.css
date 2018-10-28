@@ -181,6 +181,68 @@ head {
 
 
 /*-----------------------------------------------------------------Content--*/
+/*--------------------Band--*/
+.band {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+.circle1 {
+    background: url(../img/band/band1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 45px 0px 20px 0px;
+    margin: auto;
+    height: 200px;
+    width: 180px;
+    border-radius: 50%;
+    border: 4px solid;
+    border-color: #fafafa;
+}
+
+.circle2 {
+     background: url(../img/band/band2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 45px 0px 20px 0px;
+    margin: auto;
+    height: 200px;
+    width: 180px;
+    border-radius: 50%;
+    border: 4px solid;
+    border-color: #fafafa;
+}
+
+.circle3 {
+     background: url(../img/band/band3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 45px 0px 20px 0px;
+    margin: auto;
+    height: 200px;
+    width: 180px;
+    border-radius: 50%;
+    border: 4px solid;
+    border-color: #fafafa;
+}
+
+.circle4 {
+     background: url(../img/band/band4.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 45px 0px 20px 0px;
+    margin: auto;
+    height: 200px;
+    width: 180px;
+    border-radius: 50%;
+    border: 4px solid;
+    border-color: #fafafa;
+}
+
+
 
 /*--------------------News--*/
 
