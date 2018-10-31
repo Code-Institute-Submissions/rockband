@@ -8,6 +8,14 @@ head {
 
 /*-----------------------------------------------Backgrounds and general margins/paddings--*/
 
+.vh {
+    height: 100vh;
+}
+
+.section {
+    height: 100%;
+}
+
 .bg-guitar {
     height: 100%;
     background: url(../img/bass.jpg);
@@ -111,7 +119,7 @@ head {
     margin-top: 71px;
     font-family: 'Oswald', sans-serif;
     font-size: 10vh;
-    
+
 }
 
 .divider-menu {
@@ -184,9 +192,43 @@ head {
 
 
 /*-----------------------------------------------------------------Content--*/
+
+/*--------------------Gallery--*/
+.fancybox {
+    margin-top: 60px;
+}
+.gallery {
+    font-family: 'Teko', sans-serif;
+    color: #fafafa;
+    font-size: 150%;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out
+}
+
+.gallery:hover {
+    color: #000;
+    background-color: #fafafa;
+}
+
+.imglist {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imglist a img {
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
 /*--------------------Music--*/
+
 .single {
-    font-family: 'Teko',sans-serif;
+    font-family: 'Teko', sans-serif;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 150%;
@@ -202,7 +244,7 @@ head {
 }
 
 .album {
-    font-family: 'Teko',sans-serif;
+    font-family: 'Teko', sans-serif;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 120%;
@@ -218,6 +260,26 @@ head {
 }
 
 /*--------------------Tour--*/
+
+.tickets {
+    width: 200px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 120%;
+    border: 2px solid;
+    border-color: #fafafa;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;
+    margin: auto;
+}
+
+.tickets:hover {
+    background-color: #fafafa;
+    color: #000;
+}
 
 .content {
     text-align: center;
@@ -270,12 +332,12 @@ head {
     height: 150px;
 }
 
-.concert span {
+.concert>p>span {
     font-family: 'Fjalla One', sans-serif;
     margin-left: 10px;
 }
 
-.concert p {
+.concert>p {
     font-family: 'Teko', sans-serif;
     font-size: 150%;
     font-weight: 500;
@@ -284,7 +346,7 @@ head {
     transition: all 0.5s ease-in-out
 }
 
-.concert p:hover {
+.concert>p:hover {
     color: #000;
     background-color: #fafafa;
 }
@@ -483,9 +545,7 @@ head {
     border-color: #fafafa;
 }
 
-.readmore {
-
-}
+.readmore {}
 
 
 /*-------------------End-News--*/
