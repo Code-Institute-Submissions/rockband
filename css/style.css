@@ -194,14 +194,17 @@ head {
 /*-----------------------------------------------------------------Content--*/
 
 /*--------------------Gallery--*/
+
 .fancybox {
     margin-top: 60px;
 }
+
 .gallery {
+    margin: 40px 20px 20px 20px;
     font-family: 'Teko', sans-serif;
     color: #fafafa;
     font-size: 150%;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 4px;
     text-transform: uppercase;
     transition: all 0.5s ease-in-out
@@ -261,25 +264,34 @@ head {
 
 /*--------------------Tour--*/
 
+.concert>a {
+    margin: auto;
+    text-decoration: none;
+}
+
 .tickets {
+    margin: auto;
+    margin-top: 20px;
     width: 200px;
+    padding-top: 3px;
     font-family: 'Teko', sans-serif;
     font-weight: 600;
     font-size: 120%;
     border: 2px solid;
+    color: #fafafa;
     border-color: #fafafa;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 4px;
     transition: all 0.5s ease-in-out;
-    text-decoration: none;
-    margin: auto;
 }
 
 .tickets:hover {
     background-color: #fafafa;
     color: #000;
 }
+
+
 
 .content {
     text-align: center;
@@ -332,12 +344,21 @@ head {
     height: 150px;
 }
 
+@media (max-width: 991px) {
+    .concert {
+        margin-top: 14px;
+        margin-bottom: 90px;
+        height: 150px;
+    }
+}
+
 .concert>p>span {
     font-family: 'Fjalla One', sans-serif;
     margin-left: 10px;
+    margin-bottom: 30px;
 }
 
-.concert>p {
+.where {
     font-family: 'Teko', sans-serif;
     font-size: 150%;
     font-weight: 500;
@@ -346,14 +367,11 @@ head {
     transition: all 0.5s ease-in-out
 }
 
-.concert>p:hover {
+.where:hover {
     color: #000;
     background-color: #fafafa;
 }
 
-.tickets {
-    font-size: 80%;
-}
 
 /*--------------------Band--*/
 
