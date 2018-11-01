@@ -705,6 +705,22 @@ head {
     margin: 35px 20px 30px 20px;
 }
 
+/*-------------------Cookie and Privace Policy--*/
+.cookieparagraph {
+    font-family: 'Fjalla One', sans-serif;
+    color: #fafafa;
+    font-size: 115%;
+    margin: 35px 20px 30px 20px;
+}
+
+.policyparagraph {
+    font-family: 'Fjalla One', sans-serif;
+    color: #fafafa;
+    font-size: 115%;
+    margin: 35px 20px 30px 20px;
+}
+
+
 /*-------------------End-News--*/
 
 .content {
