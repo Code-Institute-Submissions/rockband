@@ -160,20 +160,20 @@ head {
 
 .menuitem a {
     text-decoration: none;
-    color: #fafafa;
     height: 70px;
-    transition: all .4s ease-in-out;
+    
 }
 
 .menuitem span {
     font-family: 'Oswald', sans-serif;
     font-size: 190%;
     font-weight: 500;
-    color: #fafafa;
+    color: #fff;
+    transition: all .4s ease-in-out;
 
 }
 
-.menuitem a:hover {
+.menuitem span:hover {
     color: #838282;
 }
 
@@ -706,6 +706,7 @@ head {
 }
 
 /*-------------------Cookie and Privace Policy--*/
+
 .cookieparagraph {
     font-family: 'Fjalla One', sans-serif;
     color: #fafafa;
