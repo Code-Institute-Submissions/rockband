@@ -14,9 +14,9 @@
 <body>
 
   <header>
-    
+
     <!-- Navbar -->
-    
+
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12">
         <div class="top-bar">
@@ -33,7 +33,8 @@
               <button class="btn-dropdown" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                 <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
               </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <ul id="dropdownposition" class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li role="separator" class="divider-menu"></li>
                 <li>
                   <a href="news.html">NEWS</a>
                 </li>
@@ -53,12 +54,13 @@
                 <li>
                   <a href="gallery.html">GALLERY</a>
                 </li>
+                <li role="separator" class="divider-menu"></li>
               </ul>
             </div>
           </div>
-          
+
           <!-- MENU -->
-          
+
           <div class="row hidden-xs hidden-sm col-md-8 ">
             <ul id="nav" class="list-inline clearfix">
               <li class="col-md-2 menuitem">
@@ -106,16 +108,22 @@
                 <div class="col-xs-12 col-sm-12 col-md-10 band-jpg"></div>
               </div>
             </div>
-            <hr>
+            <hr class="content-div">
             <div class="content2">
-              <p class="homepagesingle"><i class="far fa-star"></i>new single <i class="far fa-star"></i></p>
-              <iframe width="80%" height="450px" src="https://www.youtube.com/embed/9-SQGOYOjxs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              <p class="homepagesingle"><i class="far fa-star"></i> new single <i class="far fa-star"></i></p>
+              <iframe class="singlehomepage" width="80%" height="450px" src="https://www.youtube.com/embed/_DboMAghWcA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
-            <hr>
+            <hr class="content-div">
             <div class="content3">
-              <p class="homepagenews">Title No 1</p>
+              <div class="homepagenews"><p>title no 1</p></div>
+              <div class="newsimghomepage hidden-xs"></div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quia, id architecto iure, perferendis quibusdam velit doloribus unde nulla dolorem sed praesentium, maiores expedita impedit nam vel recusandae dolorum temporibus possimus!
+                Quasi totam porro, aliquid voluptate sequi, numquam esse tenetur molestias consectetur neque dolorum, eveniet corporis. Excepturi facilis aut omnis accusantium, quibusdam vel sequi! Quod quisquam doloribus repellendus quos maxime?...
+                <a href="news1.html"><span class="readmore">READ MORE</span></a>
+              </p>
+              
             </div>
-            <hr>
+            <hr class="bot-div">
           </div>
         </div>
       </div>
@@ -169,11 +177,11 @@
 
           <hr class="divider">
           <div class="cookieprivace">
-            <a target="_blank" href="/privacepolicy.html">
+            <a target="_blank" href="privacepolicy.html">
               <span class="pp">privace policy</span>
             </a>
             <span class="ver-div">&nbsp;|&nbsp;</span>
-            <a target="_blank" href="/cookiepolicy.html">
+            <a target="_blank" href="cookiepolicy.html">
               <span class="cp">cookiepolicy</span>
             </a>
           </div>
