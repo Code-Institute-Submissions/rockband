@@ -114,7 +114,7 @@ head {
     font-size: 250%;
 }
 
-.dropdown-menu>li>a {
+.dropdown-menu > li > a {
     text-align: center;
     color: #fafafa;
     letter-spacing: 8px;
@@ -183,6 +183,7 @@ div>#dropdownposition {
     font-family: 'Oswald', sans-serif;
     font-size: 190%;
     font-weight: 500;
+    margin: 10px;
     color: #fff;
     transition: all .4s ease-in-out;
 
@@ -367,7 +368,7 @@ div>#dropdownposition {
     }
 }
 
-.concert>p>span {
+.concert > span {
     font-family: 'Fjalla One', sans-serif;
     margin-left: 10px;
     margin-bottom: 30px;
@@ -724,6 +725,42 @@ h6 {
 
 /*-------------------Homepage--*/
 
+.concerthomepage > span {
+    font-family: 'Fjalla One', sans-serif;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    color: #fafafa;
+}
+
+.concerthomepage {
+    margin-top: 14px;
+    margin-bottom: 40px;
+    height: 150px;
+}
+
+.concerthomepage > a {
+    text-decoration: none;
+}
+
+
+.nextconcert {
+    font-family: 'Teko', sans-serif;
+    font-size: 150%;
+    font-weight: 500;
+    letter-spacing: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    transition: all 0.5s ease-in-out;
+    color: #fafafa;
+}
+
+.nextconcert:hover {
+    color: #000;
+    background-color: #fafafa;
+}
+
+
 .band-jpg {
     background: url(../img/band.jpg);
     height: 65vh;
@@ -734,7 +771,8 @@ h6 {
 }
 
 .content2,
-.content3 {
+.content3,
+.content1 {
     text-align: center;
 }
 
@@ -868,7 +906,7 @@ h6 {
 }
 
 .fab.fa-spotify:hover {
-    color: #37b823;
+    color: #1db954;
 }
 
 .fab.fa-youtube {
@@ -877,7 +915,7 @@ h6 {
 }
 
 .fab.fa-youtube:hover {
-    color: #fd0101;
+    color: #e62117;
 }
 
 .fab.fa-itunes {
@@ -895,7 +933,7 @@ h6 {
 }
 
 .fab.fa-facebook:hover {
-    color: #4c6fec;
+    color: #3b5998;
 }
 
 .fab.fa-instagram {
