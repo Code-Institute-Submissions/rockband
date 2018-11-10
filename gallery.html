@@ -15,9 +15,9 @@
 <body>
 
   <header>
-    
+
     <!-- Navbar -->
-      
+
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12">
         <div class="top-bar">
@@ -27,14 +27,15 @@
             </a>
           </div>
 
-          <!-- Dropdown MENU -->
+          <!-- Dropdown MENU  -->
 
           <div class="col-xs-2 col-sm-2 hidden-md hidden-lg menu">
             <div class="dropdown">
               <button class="btn-dropdown" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                 <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
               </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <ul id="dropdownposition" class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li role="separator" class="divider-menu"></li>
                 <li>
                   <a href="news.html">NEWS</a>
                 </li>
@@ -51,9 +52,14 @@
                   <a href="music.html">MUSIC</a>
                 </li>
                 <li role="separator" class="divider-menu"></li>
-                <li class="disabled">
+                <li>
                   <a href="gallery.html">GALLERY</a>
                 </li>
+                <li role="separator" class="divider-menu"></li>
+                <li>
+                  <a href="gallery.html">CONTACT</a>
+                </li>
+                <li role="separator" class="divider-menu"></li>
               </ul>
             </div>
           </div>
@@ -74,8 +80,11 @@
               <li class="col-md-2 menuitem">
                 <a href="music.html" class=""><span>MUSIC</span></a>
               </li>
-              <li class="col-md-3 menuitem">
-                <a href="gallery.html" class=""><span>GALLERY</span></a>
+              <li class="col-md-2 menuitem">
+                <a href="gallery.html" class=""><span>GALLERY </span></a>
+              </li>
+              <li class="col-md-2 menuitem">
+                <a href="contact.html" class=""><span> CONTACT</span></a>
               </li>
             </ul>
           </div>
@@ -84,7 +93,7 @@
       </div>
     </div>
   </header>
-  
+
   <main>
     <section>
       <div class="row">
@@ -149,6 +158,28 @@
                     <img src="img/gallery/mini/gallmini16.JPG" />
                   </a>
                 </p>
+                <p class="gallery">our fans photos</p>
+                <hr class="content-div">
+                <p class="imglist">
+                  <a href="img/gallery/fans/fans1.jpg" data-fancybox="gallery" data-caption="&lt;b&gt;Title No 1&lt;/b&gt;&lt;br /&gt;Description photo">
+                    <img src="img/gallery/fans/mini/minifans1.jpg" />
+                  </a>
+                  <a href="img/gallery/fans/fans2.jpg" data-fancybox="gallery" data-caption="&lt;b&gt;Title No 1&lt;/b&gt;&lt;br /&gt;Description photo">
+                    <img src="img/gallery/fans/mini/minifans2.jpg" />
+                  </a>
+                  <a href="img/gallery/fans/fans3.jpg" data-fancybox="gallery" data-caption="&lt;b&gt;Title No 1&lt;/b&gt;&lt;br /&gt;Description photo">
+                    <img src="img/gallery/fans/mini/minifans3.jpg" />
+                  </a>
+                  <a href="img/gallery/fans/fans4.jpg" data-fancybox="gallery" data-caption="&lt;b&gt;Title No 1&lt;/b&gt;&lt;br /&gt;Description photo">
+                    <img src="img/gallery/fans/mini/minifans4.jpg" />
+                  </a>
+                  <a href="img/gallery/fans/fans5.jpg" data-fancybox="gallery" data-caption="&lt;b&gt;Title No 1&lt;/b&gt;&lt;br /&gt;Description photo">
+                    <img src="img/gallery/fans/mini/minifans5.jpg" />
+                  </a>
+                   <a href="img/gallery/fans/fans6.jpg" data-fancybox="gallery" data-caption="&lt;b&gt;Title No 1&lt;/b&gt;&lt;br /&gt;Description photo">
+                    <img src="img/gallery/fans/mini/minifans6.jpg" />
+                  </a>
+                </p>
               </div>
             </div>
             <hr>
@@ -200,7 +231,7 @@
               </a>
             </li>
           </ul>
-          
+
           <!-- Links to Privacy Policy and Cookie Policy -->
 
           <hr class="divider">

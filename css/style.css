@@ -96,6 +96,10 @@ head {
     height: 3px;
 }
 
+.vh {
+    height: 100vh;
+}
+
 /*-----------------------------------------------------------------Navigation Top Bar --*/
 
 /*------------------------------- menu dropdown button--*/
@@ -114,7 +118,7 @@ head {
     font-size: 250%;
 }
 
-.dropdown-menu > li > a {
+.dropdown-menu>li>a {
     text-align: center;
     color: #fafafa;
     letter-spacing: 8px;
@@ -368,7 +372,7 @@ div>#dropdownposition {
     }
 }
 
-.concert > span {
+.concert>span {
     font-family: 'Fjalla One', sans-serif;
     margin-left: 10px;
     margin-bottom: 30px;
@@ -393,9 +397,27 @@ div>#dropdownposition {
 
 /*--------------------Band--*/
 
+.bandparagraph {
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 150%;
+    margin: 40px 20px 20px 20px;
+    transition: all 0.5s ease-in-out;
+    letter-spacing: 4px;
+    color: #fafafa;
+}
+
+.bandparagraph:hover {
+    color: #000;
+    background-color: #fafafa;
+}
+
 .members {
     text-align: center;
     font-family: 'Fjalla One', sans-serif;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .circle {
@@ -409,42 +431,28 @@ div>#dropdownposition {
 }
 
 .band1 {
-    background: url(../img/band/band1.jpeg);
+    background: url(../img/band/band1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .band2 {
-    background: url(../img/band/band2.jpeg);
+    background: url(../img/band/band2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .band3 {
-    background: url(../img/band/band3.jpeg);
+    background: url(../img/band/band3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .band4 {
-    background: url(../img/band/band4.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.band5 {
-    background: url(../img/band/band5.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.band6 {
-    background: url(../img/band/band6.jpeg);
+    background: url(../img/band/band4.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -555,7 +563,8 @@ div>#dropdownposition {
 .readmore {
     background-color: #fafafa;
     color: #000;
-    transition: all 0.5s ease-in-out
+    transition: all 0.5s ease-in-out;
+    white-space: nowrap;
 }
 
 .readmore:hover {
@@ -725,7 +734,7 @@ h6 {
 
 /*-------------------Homepage--*/
 
-.concerthomepage > span {
+.concerthomepage>span {
     font-family: 'Fjalla One', sans-serif;
     margin-left: 10px;
     margin-bottom: 30px;
@@ -735,10 +744,9 @@ h6 {
 .concerthomepage {
     margin-top: 14px;
     margin-bottom: 40px;
-    height: 150px;
 }
 
-.concerthomepage > a {
+.concerthomepage>a {
     text-decoration: none;
 }
 
@@ -824,7 +832,7 @@ h6 {
 @media (max-width: 767px) {
     .singlehomepage,
     .singlemusic {
-        height: 250px
+        height: 250px;
     }
 }
 
