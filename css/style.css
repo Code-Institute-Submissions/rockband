@@ -279,6 +279,152 @@ div>#dropdownposition {
     color: #000;
 }
 
+/*--------------------Contact--*/
+
+.contact {
+    font-size: 300%;
+}
+
+.centerform {
+    display: flex;
+    justify-content: center;
+}
+
+.inputforms {
+    font-family: 'Fjalla One', sans-serif;
+    color: #fafafa;
+    font-size: 115%;
+    margin-top: 25px;
+}
+
+.sendbutton {
+    margin: auto;
+    margin-top: 20px;
+    width: 200px;
+    padding-top: 3px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 120%;
+    border: 2px solid;
+    color: #fafafa;
+    background-color: transparent;
+    border-color: #fafafa;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: all 0.5s ease-in-out;
+    outline: none;
+}
+
+
+
+.form-control:focus {
+    border-color: #fafafa;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
+input[type=text],
+input[type=email] {
+    width: 80%;
+    padding: 0px 20px;
+    display: flex;
+    margin: auto;
+    border: none;
+    border-bottom: 2px solid #fafafa;
+    box-sizing: border-box;
+    background-color: transparent;
+    outline-color: #fafafa;
+}
+
+
+input[type=text]:focus {
+    outline: #fafafa;
+}
+
+input[type=submit] {
+    margin: auto;
+    margin-top: 20px;
+    width: 200px;
+    padding-top: 3px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 120%;
+    border: 2px solid;
+    color: #fafafa;
+    background-color: transparent;
+    border-color: #fafafa;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: all 0.5s ease-in-out;
+    outline: none;
+}
+
+input[type=submit]:hover {
+    background-color: #fafafa;
+    color: #000;
+}
+
+input[placeholder] {
+    font-family: 'Teko', sans-serif;
+    font-weight: 400;
+    font-size: 120%;
+    letter-spacing: 2px;
+}
+
+textarea {
+    font-family: 'Teko', sans-serif;
+    font-weight: 400;
+    font-size: 120%;
+    letter-spacing: 2px;
+    border: 2px solid;
+    width: 80%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #fafafa;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #fafafa;
+    resize: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+label {
+    padding: 0px 30px;
+    margin-top: 30px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 400;
+    font-size: 120%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out
+}
+
+label:hover {
+    background-color: #fafafa;
+    color: #000;
+}
+
+.radiopick {
+    font-family: 'Teko', sans-serif;
+    font-weight: 400;
+    font-size: 120%;
+    letter-spacing: 2px;
+    color: #fafafa;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+input[type=radio] {
+    margin-top: 12px;
+}
+
+input[value="concert"] {
+    margin-top: 25px;
+}
+
 /*--------------------Tour--*/
 
 .concert>a {
@@ -787,7 +933,7 @@ h6 {
 .content3>p {
     font-family: 'Fjalla One', sans-serif;
     color: #fafafa;
-    margin: 20px 20px 20px 0;
+    margin: 20px 20px 20px 20px;
 }
 
 .content3>p>a {
