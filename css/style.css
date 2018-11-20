@@ -6,6 +6,10 @@ head {
     padding: 0;
 }
 
+body {
+    height: 100%
+}
+
 /*-----------------------------------------------Backgrounds and general margins/paddings dividers--*/
 
 .row {
