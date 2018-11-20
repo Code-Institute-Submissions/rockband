@@ -22,7 +22,7 @@ Website is able to to show us:
 - Music - embedded youtube single and latest album of a band from spotify
 - Galerry - allows user to browse through latest photos, after a click on a thumbnail user can obtain a full size photo
 - Contact - allows user to fill forms and send information (queries) to band
->
+
 
 ## Technologies Used
 
@@ -37,10 +37,14 @@ Website is able to to show us:
 
 ## Testing
 
-Test all links from all sections. Footer links are redirecting to external websites in new tabs. Tickets buttons are opening correctly new tabs. Checked the hamburger button and navbar 
-- hamburger button dropdown correctly and all links move user to correct site. Play both videos and embeded spotify music. 
-Contact section - fill all forms and press submit button it clears form correctly. Doesn't allow user to miss one of the following forms.
-Images in gallery dipslays corectly a full size img after a click.
+- Test all links from all sections
+- Footer links are redirecting to external websites in new tabs. 
+- Tickets buttons are opening correctly new tabs. 
+- Checked the hamburger button and navbar - hamburger button dropdown correctly and all links move user to correct site. 
+- Play both videos and embeded spotify music. 
+- Contact section - fill all forms and press submit button it clears form correctly. Doesn't allow user to miss one of the following forms.
+- Images in gallery dipslays corectly a full size img after a click.
+- Run website in Opera, Chrome, IE, Mozilla and phone android browser
 
 
 ## Deployment
