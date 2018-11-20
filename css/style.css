@@ -6,9 +6,6 @@ head {
     padding: 0;
 }
 
-body {
-    height: 100%
-}
 
 /*-----------------------------------------------Backgrounds and general margins/paddings dividers--*/
 
@@ -180,6 +177,29 @@ div>#dropdownposition {
 }
 
 /*-----------------------------------------------------------------Content--*/
+
+/*-------------------General content style--*/
+
+.content h1 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 700;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 400%;
+    color: #fafafa;
+}
+
+.content h6 {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+
+.center {
+    display: flex;
+    justify-content: center;
+}
 
 /*--------------------Gallery--*/
 
@@ -756,29 +776,23 @@ input[value="concert"] {
     margin: 35px 20px 30px 20px;
 }
 
-/*-------------------General content style--*/
-
-.content h1 {
-    font-family: 'Teko', sans-serif;
-    font-weight: 700;
-    padding-top: 20px;
-    text-align: center;
-    font-size: 400%;
-    color: #fafafa;
-}
-
-.content h3,
-h6 {
-    text-align: center;
-    font-family: 'Fjalla One', sans-serif;
-}
-
-.center {
-    display: flex;
-    justify-content: center;
-}
-
 /*-------------------Homepage--*/
+
+.bandyear {
+    margin: 5px 20px 35px 20px;
+    font-family: 'Teko', sans-serif;
+    color: #fafafa;
+    font-size: 150%;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out
+}
+
+.bandyear:hover {
+    background-color: #fafafa;
+    color: #000;
+}
 
 .concerthomepage>span {
     font-family: 'Fjalla One', sans-serif;
