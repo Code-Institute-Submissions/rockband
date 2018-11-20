@@ -426,7 +426,7 @@ input[value="concert"] {
 .tickets {
     margin: auto;
     margin-top: 20px;
-    width: 200px;
+    max-width: 200px;
     padding-top: 3px;
     font-family: 'Teko', sans-serif;
     font-weight: 600;
@@ -502,6 +502,7 @@ input[value="concert"] {
 .concert>span {
     font-family: 'Fjalla One', sans-serif;
     margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 30px;
     color: #fafafa;
 }
@@ -1142,10 +1143,12 @@ input[value="concert"] {
         background-size: cover;
         background-attachment: fixed;
         margin: 75px 0px 0px 0px;
+        padding: 0px;
     }
     .singlehomepage,
     .singlemusic {
         height: 250px;
+        width: 100%;
     }
      .newsfull1 {
         margin: auto;

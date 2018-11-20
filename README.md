@@ -1,8 +1,10 @@
 # Revenge
+
 This is the website of the punk - rock band.
 It's my first website ever :) and I build this from scratch. 
 
 ## UX
+
 The website is created for fans, the media and people who would like to learn more about the band.
 
 Website is able to to show us:
@@ -48,6 +50,9 @@ Website is able to to show us:
 
 
 ## Deployment
+
+Hosted on github page.
+https://chodar89.github.io/rockband/index.html
 
 ## Credits
 
