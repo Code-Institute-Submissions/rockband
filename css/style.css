@@ -156,11 +156,10 @@ div>#dropdownposition {
     font-weight: 500;
     margin: 10px;
     color: #fff;
-    transition: all .4s ease-in-out;
-
 }
 
 .menuitem span:hover {
+    transition: all .4s ease-in-out;
     color: #838282;
 }
 
@@ -215,12 +214,12 @@ div>#dropdownposition {
     font-weight: 600;
     letter-spacing: 4px;
     text-transform: uppercase;
-    transition: all 0.5s ease-in-out
 }
 
 .gallery:hover {
     color: #000;
     background-color: #fafafa;
+    transition: all 0.5s ease-in-out
 }
 
 .imglist {
@@ -244,16 +243,16 @@ div>#dropdownposition {
     font-size: 150%;
     margin: 40px 20px 20px 20px;
     color: #fafafa;
-    transition: all 0.5s ease-in-out;
     letter-spacing: 4px;
 }
 
 .single:hover {
     background-color: #fafafa;
     color: #000;
+    transition: all 0.5s ease-in-out;
 }
 
-.single > span {
+.single>span {
     white-space: nowrap;
 }
 
@@ -264,13 +263,13 @@ div>#dropdownposition {
     font-size: 120%;
     margin: 40px 20px 20px 20px;
     color: #fafafa;
-    transition: all 0.5s ease-in-out;
     letter-spacing: 4px;
 }
 
 .album:hover {
     background-color: #fafafa;
     color: #000;
+    transition: all 0.5s ease-in-out;
 }
 
 /*--------------------Contact--*/
@@ -390,12 +389,12 @@ label {
     font-size: 120%;
     letter-spacing: 2px;
     text-transform: uppercase;
-    transition: all 0.5s ease-in-out
 }
 
 label:hover {
     background-color: #fafafa;
     color: #000;
+    transition: all 0.5s ease-in-out;
 }
 
 .radiopick {
@@ -437,12 +436,12 @@ input[value="concert"] {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 4px;
-    transition: all 0.5s ease-in-out;
 }
 
 .tickets:hover {
     background-color: #fafafa;
     color: #000;
+    transition: all 0.5s ease-in-out;
 }
 
 .content {
@@ -514,13 +513,13 @@ input[value="concert"] {
     letter-spacing: 4px;
     margin-left: 10px;
     margin-right: 10px;
-    transition: all 0.5s ease-in-out;
     color: #fafafa;
 }
 
 .where:hover {
     color: #000;
     background-color: #fafafa;
+    transition: all 0.5s ease-in-out;
 }
 
 /*--------------------Band--*/
@@ -531,7 +530,6 @@ input[value="concert"] {
     font-weight: 600;
     font-size: 150%;
     margin: 40px 20px 20px 20px;
-    transition: all 0.5s ease-in-out;
     letter-spacing: 4px;
     color: #fafafa;
 }
@@ -539,6 +537,7 @@ input[value="concert"] {
 .bandparagraph:hover {
     color: #000;
     background-color: #fafafa;
+    transition: all 0.5s ease-in-out;
 }
 
 .members {
@@ -628,12 +627,12 @@ input[value="concert"] {
     margin-bottom: 20px;
     color: #fafafa;
     text-transform: uppercase;
-    transition: all 0.5s ease-in-out
 }
 
 .title:hover {
     color: #000;
     background-color: #fafafa;
+    transition: all 0.5s ease-in-out;
 }
 
 .square {
@@ -647,49 +646,34 @@ input[value="concert"] {
 
 .news1 {
     background: url(../img/news/news1.JPG);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .news2 {
     background: url(../img/news/news2.JPG);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .news3 {
     background: url(../img/news/news3.JPG);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .news4 {
     background: url(../img/news/news4.JPG);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .news5 {
     background: url(../img/news/news5.JPG);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .readmore {
     background-color: #fafafa;
     color: #000;
-    transition: all 0.5s ease-in-out;
     white-space: nowrap;
 }
 
 .readmore:hover {
     background-color: #000;
     color: #fafafa;
+    transition: all 0.5s ease-in-out;
 }
 
 .paragraph>p>a {
@@ -698,59 +682,31 @@ input[value="concert"] {
 
 /*--------------------News-Read-More-*/
 
-.newsfull1 {
+.newsbigsize {
     margin: auto;
-    background: url(../img/news/newsfull/newsfull1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     height: 414px;
     width: 600px;
     margin-bottom: 30px;
+}
+
+.newsfull1 {
+    background: url(../img/news/newsfull/newsfull1.jpg);
 }
 
 .newsfull2 {
-    margin: auto;
     background: url(../img/news/newsfull/newsfull2.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 414px;
-    width: 600px;
-    margin-bottom: 30px;
 }
 
 .newsfull3 {
-    margin: auto;
     background: url(../img/news/newsfull/newsfull3.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 414px;
-    width: 600px;
-    margin-bottom: 30px;
 }
 
 .newsfull4 {
-    margin: auto;
     background: url(../img/news/newsfull/newsfull4.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 414px;
-    width: 600px;
-    margin-bottom: 30px;
 }
 
 .newsfull5 {
-    margin: auto;
     background: url(../img/news/newsfull/newsfull5.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 414px;
-    width: 600px;
-    margin-bottom: 30px;
 }
 
 .newsparagraph {
@@ -787,12 +743,12 @@ input[value="concert"] {
     font-weight: 600;
     letter-spacing: 4px;
     text-transform: uppercase;
-    transition: all 0.5s ease-in-out
 }
 
 .bandyear:hover {
     background-color: #fafafa;
     color: #000;
+    transition: all 0.5s ease-in-out;
 }
 
 .concerthomepage>span {
@@ -819,13 +775,13 @@ input[value="concert"] {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
-    transition: all 0.5s ease-in-out;
     color: #fafafa;
 }
 
 .nextconcert:hover {
     color: #000;
     background-color: #fafafa;
+    transition: all 0.5s ease-in-out;
 }
 
 .band-jpg {
@@ -877,15 +833,15 @@ input[value="concert"] {
 }
 
 .homepagenews:hover {
-    transition: all 0.5s ease-in-out;
     background-color: #fafafa;
     color: #000;
+    transition: all 0.5s ease-in-out;
 }
 
 .homepagesingle:hover {
-    transition: all 0.5s ease-in-out;
     background-color: #fafafa;
     color: #000;
+    transition: all 0.5s ease-in-out;
 }
 
 /*-------------------------------------------------------------End----Content--*
@@ -924,56 +880,56 @@ input[value="concert"] {
 
 .fab.fa-spotify {
     color: #fff;
-    transition: all 0.5s ease-in-out
 }
 
 .fab.fa-spotify:hover {
     color: #1db954;
+    transition: all 0.5s ease-in-out;
 }
 
 .fab.fa-youtube {
     color: #fff;
-    transition: all 0.5s ease-in-out
 }
 
 .fab.fa-youtube:hover {
     color: #e62117;
+    transition: all 0.5s ease-in-out;
 }
 
 .fab.fa-itunes {
     color: #fff;
-    transition: all 0.5s ease-in-out
 }
 
 .fab.fa-itunes:hover {
     color: #b317bd;
+    transition: all 0.5s ease-in-out;
 }
 
 .fab.fa-facebook {
     color: #fff;
-    transition: all 0.5s ease-in-out
 }
 
 .fab.fa-facebook:hover {
     color: #3b5998;
+    transition: all 0.5s ease-in-out;
 }
 
 .fab.fa-instagram {
     color: #fff;
-    transition: all 0.5s ease-in-out
 }
 
 .fab.fa-instagram:hover {
     color: #ec6b00;
+    transition: all 0.5s ease-in-out;
 }
 
 .fab.fa-twitter {
     color: #fff;
-    transition: all 0.5s ease-in-out
 }
 
 .fab.fa-twitter:hover {
     color: #1dc0ff;
+    transition: all 0.5s ease-in-out;
 }
 
 .divider {
@@ -997,22 +953,20 @@ input[value="concert"] {
 
 .pp {
     color: #ffffff;
-    transition: all 0.5s ease-in-out
 }
 
 .cp {
     color: #ffffff;
-    transition: all 0.5s ease-in-out
 }
 
 .pp:hover {
     color: #838282;
-    transition: all 0.5s ease-in-out
+    transition: all 0.5s ease-in-out;
 }
 
 .cp:hover {
     color: #838282;
-    transition: all 0.5s ease-in-out
+    transition: all 0.5s ease-in-out;
 }
 
 .ver-div {
@@ -1077,61 +1031,20 @@ input[value="concert"] {
         font-size: small;
         color: #ffffff;
     }
-     .newsfull1 {
-        margin: auto;
-        background: url(../img/news/newsfull/newsfull1.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        height: 207px;
-        width: 300px;
-        margin-bottom: 30px;
-    }
-    .newsfull2 {
-        margin: auto;
-        background: url(../img/news/newsfull/newsfull2.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        height: 207px;
-        width: 300px;
-        margin-bottom: 30px;
-    }
-    .newsfull3 {
-        margin: auto;
-        background: url(../img/news/newsfull/newsfull3.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        height: 207px;
-        width: 300px;
-        margin-bottom: 30px;
-    }
-    .newsfull4 {
-        margin: auto;
-        background: url(../img/news/newsfull/newsfull4.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        height: 207px;
-        width: 300px;
-        margin-bottom: 30px;
-    }
-    .newsfull5 {
-        margin: auto;
-        background: url(../img/news/newsfull/newsfull5.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        height: 207px;
-        width: 300px;
-        margin-bottom: 30px;
-    }
-      .news-text {
+    .news-text {
         flex: 100%;
         max-width: 90%;
         margin: auto;
     }
+    .newsbigsize {
+        margin: auto;
+        height: 207px;
+        width: 100%;
+        margin-bottom: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }    
 }
 
 @media (max-width: 767px) {
@@ -1145,59 +1058,21 @@ input[value="concert"] {
         margin: 75px 0px 0px 0px;
         padding: 0px;
     }
+    .spotifyalbum {
+        width: 100%;
+    }
     .singlehomepage,
     .singlemusic {
         height: 250px;
         width: 100%;
     }
-     .newsfull1 {
+    .newsbigsize {
         margin: auto;
-        background: url(../img/news/newsfull/newsfull1.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
         height: 175px;
-        width: 255px;
+        width: 100%;
         margin-bottom: 30px;
-    }
-    .newsfull2 {
-        margin: auto;
-        background: url(../img/news/newsfull/newsfull2.jpg);
-        background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;
-        height: 175px;
-        width: 255px;
-        margin-bottom: 30px;
-    }
-    .newsfull3 {
-        margin: auto;
-        background: url(../img/news/newsfull/newsfull3.jpg);
         background-repeat: no-repeat;
-        background-position: center;
         background-size: cover;
-        height: 175px;
-        width: 255px;
-        margin-bottom: 30px;
-    }
-    .newsfull4 {
-        margin: auto;
-        background: url(../img/news/newsfull/newsfull4.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        height: 175px;
-        width: 255px;
-        margin-bottom: 30px;
-    }
-    .newsfull5 {
-        margin: auto;
-        background: url(../img/news/newsfull/newsfull5.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        height: 175px;
-        width: 255px;
-        margin-bottom: 30px;
     }
 }
