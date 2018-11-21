@@ -684,29 +684,44 @@ input[value="concert"] {
 
 .newsbigsize {
     margin: auto;
-    height: 414px;
-    width: 600px;
+    height: 464px;
+    width: 85%;
     margin-bottom: 30px;
 }
 
 .newsfull1 {
     background: url(../img/news/newsfull/newsfull1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .newsfull2 {
     background: url(../img/news/newsfull/newsfull2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .newsfull3 {
     background: url(../img/news/newsfull/newsfull3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .newsfull4 {
     background: url(../img/news/newsfull/newsfull4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .newsfull5 {
     background: url(../img/news/newsfull/newsfull5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .newsparagraph {
@@ -813,8 +828,8 @@ input[value="concert"] {
     background: url(../img/news/newsfull/newsfull1.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    height: 232px;
-    width: 350px;
+    height: 464px;
+    width: 100%;
     margin: auto;
 }
 
@@ -1033,7 +1048,7 @@ input[value="concert"] {
     }
     .news-text {
         flex: 100%;
-        max-width: 90%;
+        max-width: 100%;
         margin: auto;
     }
     .newsbigsize {
@@ -1045,6 +1060,15 @@ input[value="concert"] {
         background-repeat: no-repeat;
         background-size: cover;
     }    
+    .newsmobile{
+        margin: auto;
+        height: 207px;
+        width: 100%;
+        margin-bottom: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1067,6 +1091,15 @@ input[value="concert"] {
         width: 100%;
     }
     .newsbigsize {
+        margin: auto;
+        height: 175px;
+        width: 100%;
+        margin-bottom: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .newsmobile{
         margin: auto;
         height: 175px;
         width: 100%;
