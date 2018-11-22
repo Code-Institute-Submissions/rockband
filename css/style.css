@@ -259,6 +259,10 @@ div>#dropdownposition {
     transition: all 0.5s ease-in-out;
 }
 
+.spotifyalbum {
+    margin-bottom: 20px;
+}
+
 /*--------------------Contact--*/
 
 .contact {
@@ -579,17 +583,15 @@ input[value="concert"] {
 .news-image {
     flex: 50%;
     max-width: 30%;
+    border-right: solid;
+    color: #fafafa;
+    border-radius: 3px;
+    margin-bottom: 20px;
 }
 
 .news-text {
     flex: 50%;
     max-width: 70%;
-}
-
-.news-image {
-    border-right: solid;
-    color: #fafafa;
-    border-radius: 3px;
 }
 
 .paragraph {
