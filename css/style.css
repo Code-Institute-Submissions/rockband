@@ -1102,6 +1102,6 @@ input[value="concert"] {
 
 @media (min-width: 2561px) {
     .vh{
-        min-height: calc(100vh - 270px);
+        min-height: calc(100vh - 180px);
     }
 }
