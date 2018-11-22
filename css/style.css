@@ -36,15 +36,6 @@ head {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.blackbg {
-    height: 100vh;
-    background-color: #000;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 .content-div {
     width: 60%;
     color: #fafafa;
@@ -330,6 +321,7 @@ input[type=text]:focus {
 input[type=submit] {
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 35px;
     width: 200px;
     padding-top: 3px;
     font-family: 'Teko', sans-serif;
