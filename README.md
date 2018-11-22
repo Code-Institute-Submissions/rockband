@@ -16,6 +16,7 @@ Website is able to to show us:
 - show us lates songs
 - contact band through contact forms
 
+![Mockup](img/news/mockup/mockup.png)
 
 ## Features
 
@@ -35,6 +36,7 @@ Website is able to to show us:
 - Fontawesome v5.4.1
 - Fancybox v3.5.2
 - jQuery v3.3.1
+- Mockflow.com
 
 
 ## Testing
@@ -68,7 +70,9 @@ https://chodar89.github.io/rockband/index.html
 
 ### Media
 
-- The photos used in this site were obtained from https://www.pexels.com, except photos in fans gallery (which are made by me, Tobiasz Chodarewicz) and band photos are from https://www.pinterest.com
+- The photos used in this site were obtained from https://www.pexels.com,  
+photos in fans gallery (are made by me, Tobiasz Chodarewicz) and band photos are 
+from https://www.pinterest.com and http://www.zimbio.com/photos/Zach+Blair/2014+Budweiser+Made+America+Festival+Day+2/_msh2Z3q8vR
 - The videos used in this site were obtained from https://www.youtube.com
 - The music used in this site were obtained from https://www.spotify.com/uk/
 
